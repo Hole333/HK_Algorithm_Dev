@@ -1,0 +1,5 @@
+LIBRARY "DEBUG_SEG_TEMPLATE"
+
+EXPORTS
+CreateModule
+DestroyModule

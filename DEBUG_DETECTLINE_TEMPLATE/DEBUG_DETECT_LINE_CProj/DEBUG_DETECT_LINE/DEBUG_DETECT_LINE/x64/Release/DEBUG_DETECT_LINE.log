@@ -1,0 +1,255 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(520,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  AlgorithmModule.cpp
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\common\SDK\Includes\Common\VisionDesigner\MVD_ErrorDefine_Algo.h(947,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\common\SDK\Includes\Common\VisionDesigner\MVD_ErrorDefine_Algo.h(1154,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\common\SDK\Includes\Common\VisionDesigner\MVD_AlgoParamDefine.h(151,6): warning C4091: “typedef ”: 没有声明变量时忽略“VisionDesigner::_MVD_CALIPERTOOL_EDGEMODE__”的左侧
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\common\SDK\Includes\Common\VisionDesigner\MVD_AlgoParamDefine.h(295,6): warning C4091: “typedef ”: 没有声明变量时忽略“VisionDesigner::_MVDOCR_FILTER_TYPE__”的左侧
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\common\SDK\Includes\Common\VisionDesigner\MVD_AlgoParamDefine.h(305,6): warning C4091: “typedef ”: 没有声明变量时忽略“VisionDesigner::_MVDOCR_FILTER__”的左侧
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\common\SDK\Includes\Common\VisionDesigner\MVD_AlgoParamDefine.h(316,6): warning C4091: “typedef ”: 没有声明变量时忽略“VisionDesigner::_MVDGEOFIND_RUNNING_MODE__”的左侧
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.h(13,64): warning C4275: 非 dll 接口 class“CVmAlgModuleBase”用作 dll 接口 class“CAlgorithmModule”的基
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\common\src\VmAlgModuBase.h(34): message : 参见“CVmAlgModuleBase”的声明
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.h(13): message : 参见“CAlgorithmModule”的声明
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.h(14,1): warning C4275: 非 dll 接口 class“CModuleSharedMemoryBase”用作 dll 接口 class“CAlgorithmModule”的基
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\common\src\VmModuleSharedMemoryBase.h(30): message : 参见“CModuleSharedMemoryBase”的声明
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.h(13): message : 参见“CAlgorithmModule”的声明
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.h(21,18): warning C4251: “CAlgorithmModule::lineDetect”: class“LineDetectClass”需要有 dll 接口由 class“CAlgorithmModule”的客户端使用
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.h(27): message : 参见“LineDetectClass”的声明
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.cpp(12,20): warning C4305: “=”: 从“double”到“float”截断
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.cpp(14,22): warning C4305: “=”: 从“double”到“float”截断
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.cpp(107,45): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.cpp(107,40): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.cpp(107,35): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.cpp(107,30): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.cpp(90,40): warning C4101: “ROI_Height”: 未引用的局部变量
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\AlgorithmModule.cpp(90,29): warning C4101: “ROI_Width”: 未引用的局部变量
+  LineDetect.cpp
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(32,23): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(35,23): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(38,24): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(41,24): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(51,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(52,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(173,52): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(173,48): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(174,52): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(174,48): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(204,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(249,20): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(249,16): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(252,24): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(252,20): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(285,21): warning C4305: “return”: 从“double”到“float”截断
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(296,37): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(296,27): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(297,37): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(297,27): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(305,41): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(305,24): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(368,25): warning C4244: “初始化”: 从“_Tp”转换到“float”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(383,98): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(383,92): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(383,119): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(383,113): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(383,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(433,19): warning C4305: “return”: 从“double”到“float”截断
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(443,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(458,69): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(458,52): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(458,112): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(458,95): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(458,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(461,64): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(461,47): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(461,107): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(461,90): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(462,101): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(462,91): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(463,100): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(463,90): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(468,77): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(468,60): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(528,66): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE\LineDetect.cpp(528,49): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+    正在创建库 D:\aaaaWordSpace\HK_VISION\HK_VISION_SOFTWATE\VisionMaster4.4.0\Applications\Module(sp)\x64\Location\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE.lib 和对象 D:\aaaaWordSpace\HK_VISION\HK_VISION_SOFTWATE\VisionMaster4.4.0\Applications\Module(sp)\x64\Location\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE.exp
+  正在生成代码
+  48 of 1586 functions ( 3.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    15 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  DEBUG_DETECT_LINE.vcxproj -> D:\aaaaWordSpace\HK_VISION\HK_VISION_SOFTWATE\VisionMaster4.4.0\Applications\Module(sp)\x64\Location\DEBUG_DETECT_LINE\DEBUG_DETECT_LINE.dll
+  ---------------------------------
+  D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\
+  moduName:DEBUG_DETECT_LINE
+  xmlPath:D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE\
+  xcopy "D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\x64\Release\*.dll" "D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE\" /y
+  D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\x64\Release\DEBUG_DETECT_LINE.dll
+  复制了 1 个文件
+  xcopy "D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\x64\Release\*.pdb" "D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE\" /y
+  D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_DETECTLINE_TEMPLATE\DEBUG_DETECT_LINE_CProj\DEBUG_DETECT_LINE\x64\Release\DEBUG_DETECT_LINE.pdb
+  复制了 1 个文件
+  ---------------------------------
+  请按任意键继续. . . 

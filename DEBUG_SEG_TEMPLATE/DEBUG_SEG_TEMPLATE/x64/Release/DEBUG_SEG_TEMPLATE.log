@@ -1,0 +1,32 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(520,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  Y11SegPredictor.cpp
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE_CProj\DEBUG_SEG_TEMPLATE\DEBUG_SEG_TEMPLATE\Y11SegPredictor.cpp(132,54): warning C4244: “=”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE_CProj\DEBUG_SEG_TEMPLATE\DEBUG_SEG_TEMPLATE\Y11SegPredictor.cpp(134,58): warning C4244: “=”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE_CProj\DEBUG_SEG_TEMPLATE\DEBUG_SEG_TEMPLATE\Y11SegPredictor.cpp(137,38): warning C4101: “e”: 未引用的局部变量
+    正在创建库 D:\aaaaWordSpace\HK_VISION\HK_VISION_SOFTWATE\VisionMaster4.4.0\Applications\Module(sp)\x64\DeepLearning\DEBUG_SEG_TEMPLATE\DEBUG_SEG_TEMPLATE.lib 和对象 D:\aaaaWordSpace\HK_VISION\HK_VISION_SOFTWATE\VisionMaster4.4.0\Applications\Module(sp)\x64\DeepLearning\DEBUG_SEG_TEMPLATE\DEBUG_SEG_TEMPLATE.exp
+  正在生成代码
+  2 of 2530 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  DEBUG_SEG_TEMPLATE.vcxproj -> D:\aaaaWordSpace\HK_VISION\HK_VISION_SOFTWATE\VisionMaster4.4.0\Applications\Module(sp)\x64\DeepLearning\DEBUG_SEG_TEMPLATE\DEBUG_SEG_TEMPLATE.dll
+  ---------------------------------
+  D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE_CProj\DEBUG_SEG_TEMPLATE\
+  moduName:DEBUG_SEG_TEMPLATE
+  xmlPath:D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE\
+  xcopy "D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE_CProj\DEBUG_SEG_TEMPLATE\x64\Release\*.dll" "D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE\" /y
+  D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE_CProj\DEBUG_SEG_TEMPLATE\x64\Release\DEBUG_SEG_TEMPLATE.dll
+  复制了 1 个文件
+  xcopy "D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE_CProj\DEBUG_SEG_TEMPLATE\x64\Release\*.pdb" "D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE\" /y
+  D:\aaaaWordSpace\HK_VISION\DEBUG_HKVISION\HK_Algorithm\DEBUG_YOLOSEG_TEMPLATE\DEBUG_SEG_TEMPLATE_CProj\DEBUG_SEG_TEMPLATE\x64\Release\DEBUG_SEG_TEMPLATE.pdb
+  复制了 1 个文件
+  ---------------------------------
+  请按任意键继续. . . 

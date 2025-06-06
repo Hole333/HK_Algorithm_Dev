@@ -1,0 +1,38 @@
+Algorithm XML Generator
+Module All Params
+Module Basic IO Params
+ModuleName:DEBUG_DETECT_LINE
+IsInputImage:1
+IsInputPosCorrection:1
+IsOutputImage:1
+IsOutputState:1
+Module Custom IO Params
+cx|圆中心X|float|Input
+cy|圆中心Y|float|Input
+rIn|内环半径|float|Input
+rOut|外环半径|float|Input
+rectRoi|输出ROI|ROIBOX|Output
+Module Result Params
+Module Cur Result Params
+Module Hist Result Params
+Module Text Show Params
+Ui All Params
+Ui Basic IO Params
+Roi_Box:1
+Roi_Polyon:0
+Roi_SectorRing:1
+Roi_CircleCaliper:0
+Roi_LineCaliper:0
+Roi_Shield:0
+PositionCorrection:1
+DisplayText:0
+ModelSet:0
+Ui Custom Run Params
+int|threshold|霍夫变化阈值|0|9999|200
+float|minLength|最短侧缝长度|0.00|1.00|0.4
+float|maxLineLength|最长侧缝长度|0.00|2.00|1.00
+float|maxLineGap|最大线段跨越距离|0.00|1.00|0.30
+int|cannyLow|canny下限阈值|0|1000|100
+int|cannyHigh|canny上限阈值|0|1000|300
+int|roiWidth|输出ROI宽度|0|9999|70
+int|roiHeight|输出ROI高度|0|9999|300

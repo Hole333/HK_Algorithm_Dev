@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmParamList>
+    <ParamItem>
+        <Name>threshold</Name>
+        <DefaultValue>200</DefaultValue>
+    </ParamItem>
+    <ParamItem>
+        <Name>minLength</Name>
+        <DefaultValue>0.4</DefaultValue>
+    </ParamItem>
+    <ParamItem>
+        <Name>maxLineLength</Name>
+        <DefaultValue>1.00</DefaultValue>
+    </ParamItem>
+    <ParamItem>
+        <Name>maxLineGap</Name>
+        <DefaultValue>0.30</DefaultValue>
+    </ParamItem>
+    <ParamItem>
+        <Name>cannyLow</Name>
+        <DefaultValue>100</DefaultValue>
+    </ParamItem>
+    <ParamItem>
+        <Name>cannyHigh</Name>
+        <DefaultValue>300</DefaultValue>
+    </ParamItem>
+    <ParamItem>
+        <Name>roiWidth</Name>
+        <DefaultValue>70</DefaultValue>
+    </ParamItem>
+    <ParamItem>
+        <Name>roiHeight</Name>
+        <DefaultValue>300</DefaultValue>
+    </ParamItem>
+</AlgorithmParamList>

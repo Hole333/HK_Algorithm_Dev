@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmTabRoot>
+    <Tabs>
+        <Tab Name="Tab_Basic Params">
+            <Categorys>
+                <GroupLinkItem Name="ImageSourceGroup">
+                    <LinkName>ImageSourceGroup</LinkName>
+                </GroupLinkItem>
+				<Category Name="图像输入">
+					<Items>
+						<EnumerationG Name="ImageSource2">
+							<Description>Input Source 2</Description>
+							<DisplayName>锐化图像</DisplayName>
+							<Visibility>Beginner</Visibility>
+							<AccessMode>O</AccessMode>
+							<Triggers>
+								<Trigger>
+									<Property>CurValue</Property>
+									<Setters>
+										<Setter>
+											<OperationName>SetCombinationSourceOperation</OperationName>
+											<OperationParams>InputImage2</OperationParams>
+										</Setter>
+									</Setters>
+								</Trigger>
+							</Triggers>
+							<Initers>
+								<Setter>
+									<TargetName>EnumEntrys</TargetName>
+									<OperationName>GetFrontParamItemsOperation</OperationName>
+									<OperationParams>IMAGE</OperationParams>
+								</Setter>
+								<Setter>
+									<TargetName>CurValue</TargetName>
+									<OperationName>GetSelectedCombinationOperation</OperationName>
+									<OperationParams>InputImage2</OperationParams>
+								</Setter>
+							</Initers>
+						</EnumerationG>
+					</Items>
+				</Category>
+				<Category Name="Tab_ROI Area">
+                    <Items>
+                        <GroupLinkItem Name="RoiSelectGroup">
+                            <LinkName>RoiSelectGroup</LinkName>
+                        </GroupLinkItem>
+                        <ROISelecter Name="RoiType">
+                            <Description>Shape</Description>
+                            <DisplayName>Shape</DisplayName>
+                            <Visibility>Beginner</Visibility>
+                            <AccessMode>RW</AccessMode>
+                            <FullScreenEnable>True</FullScreenEnable>
+                            <SelectType>Single</SelectType>
+                            <CustomVisible>False</CustomVisible>
+                            <ROISelection>Box SectorRing</ROISelection>
+                        </ROISelecter>
+                        <GroupLinkItem Name="InheritWayGroup">
+                            <LinkName>InheritWayGroup</LinkName>
+                        </GroupLinkItem>
+                        <GroupLinkItem Name="AssistGroup">
+                            <LinkName>AssistGroup</LinkName>
+                        </GroupLinkItem>
+                    </Items>
+                </Category>
+                <Category Name="Class Inputs">
+                    <Items>
+                        <ButtonSelecter Name="cxs">
+                            <Description>圆中心X</Description>
+                            <DisplayName>圆中心X</DisplayName>
+                            <Visibility>Beginner</Visibility>
+                            <AccessMode>O</AccessMode>
+                            <CustomVisible>True</CustomVisible>
+                            <DropOpenSetter>
+                                <TargetName>EnumEntrys</TargetName>
+                                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                                <OperationParams>float</OperationParams>
+                            </DropOpenSetter>
+                            <Triggers>
+                                <Trigger>
+                                    <Property>CurValue</Property>
+                                    <Setters>
+                                        <Setter>
+                                            <OperationName>SetFilterSourceOperation</OperationName>
+                                            <OperationParams>cx</OperationParams>
+                                        </Setter>
+                                    </Setters>
+                                </Trigger>
+                            </Triggers>
+                            <Initers>
+                                <Setter>
+                                    <TargetName>CurValue</TargetName>
+                                    <OperationName>GetSelectedFilterOperation</OperationName>
+                                    <OperationParams>cx</OperationParams>
+                                </Setter>
+                            </Initers>
+                        </ButtonSelecter>
+                        <ButtonSelecter Name="cys">
+                            <Description>圆中心Y</Description>
+                            <DisplayName>圆中心Y</DisplayName>
+                            <Visibility>Beginner</Visibility>
+                            <AccessMode>O</AccessMode>
+                            <CustomVisible>True</CustomVisible>
+                            <DropOpenSetter>
+                                <TargetName>EnumEntrys</TargetName>
+                                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                                <OperationParams>float</OperationParams>
+                            </DropOpenSetter>
+                            <Triggers>
+                                <Trigger>
+                                    <Property>CurValue</Property>
+                                    <Setters>
+                                        <Setter>
+                                            <OperationName>SetFilterSourceOperation</OperationName>
+                                            <OperationParams>cy</OperationParams>
+                                        </Setter>
+                                    </Setters>
+                                </Trigger>
+                            </Triggers>
+                            <Initers>
+                                <Setter>
+                                    <TargetName>CurValue</TargetName>
+                                    <OperationName>GetSelectedFilterOperation</OperationName>
+                                    <OperationParams>cy</OperationParams>
+                                </Setter>
+                            </Initers>
+                        </ButtonSelecter>
+                        <ButtonSelecter Name="rIns">
+                            <Description>内环半径</Description>
+                            <DisplayName>内环半径</DisplayName>
+                            <Visibility>Beginner</Visibility>
+                            <AccessMode>O</AccessMode>
+                            <CustomVisible>True</CustomVisible>
+                            <DropOpenSetter>
+                                <TargetName>EnumEntrys</TargetName>
+                                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                                <OperationParams>float</OperationParams>
+                            </DropOpenSetter>
+                            <Triggers>
+                                <Trigger>
+                                    <Property>CurValue</Property>
+                                    <Setters>
+                                        <Setter>
+                                            <OperationName>SetFilterSourceOperation</OperationName>
+                                            <OperationParams>rIn</OperationParams>
+                                        </Setter>
+                                    </Setters>
+                                </Trigger>
+                            </Triggers>
+                            <Initers>
+                                <Setter>
+                                    <TargetName>CurValue</TargetName>
+                                    <OperationName>GetSelectedFilterOperation</OperationName>
+                                    <OperationParams>rIn</OperationParams>
+                                </Setter>
+                            </Initers>
+                        </ButtonSelecter>
+                        <ButtonSelecter Name="rOuts">
+                            <Description>外环半径</Description>
+                            <DisplayName>外环半径</DisplayName>
+                            <Visibility>Beginner</Visibility>
+                            <AccessMode>O</AccessMode>
+                            <CustomVisible>True</CustomVisible>
+                            <DropOpenSetter>
+                                <TargetName>EnumEntrys</TargetName>
+                                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                                <OperationParams>float</OperationParams>
+                            </DropOpenSetter>
+                            <Triggers>
+                                <Trigger>
+                                    <Property>CurValue</Property>
+                                    <Setters>
+                                        <Setter>
+                                            <OperationName>SetFilterSourceOperation</OperationName>
+                                            <OperationParams>rOut</OperationParams>
+                                        </Setter>
+                                    </Setters>
+                                </Trigger>
+                            </Triggers>
+                            <Initers>
+                                <Setter>
+                                    <TargetName>CurValue</TargetName>
+                                    <OperationName>GetSelectedFilterOperation</OperationName>
+                                    <OperationParams>rOut</OperationParams>
+                                </Setter>
+                            </Initers>
+                        </ButtonSelecter>
+                    </Items>
+                </Category>
+            </Categorys>
+        </Tab>
+        <Tab Name="Tab_Run Params">
+            <Categorys>
+                <Category Name="Tab_Run Params">
+                    <Items>
+                        <Integer Name="threshold" NameSpace="Standard">
+                            <Description>霍夫变化阈值</Description>
+                            <DisplayName>霍夫变化阈值</DisplayName>
+                            <AccessMode>RW</AccessMode>
+                            <MinValue>0</MinValue>
+                            <MaxValue>9999</MaxValue>
+                            <CurValue>200</CurValue>
+                            <IncValue>1</IncValue>
+                        </Integer>
+                        <Float Name="minLength" NameSpace="Standard">
+                            <Description>最短侧缝长度</Description>
+                            <DisplayName>最短侧缝长度</DisplayName>
+                            <AccessMode>RW</AccessMode>
+                            <MinValue>0.00</MinValue>
+                            <MaxValue>1.00</MaxValue>
+                            <CurValue>0.4</CurValue>
+                            <IncValue>0.1</IncValue>
+                        </Float>
+                        <Float Name="maxLineLength" NameSpace="Standard">
+                            <Description>最长侧缝长度</Description>
+                            <DisplayName>最长侧缝长度</DisplayName>
+                            <AccessMode>RW</AccessMode>
+                            <MinValue>0.00</MinValue>
+                            <MaxValue>2.00</MaxValue>
+                            <CurValue>1.00</CurValue>
+                            <IncValue>0.1</IncValue>
+                        </Float>
+                        <Float Name="maxLineGap" NameSpace="Standard">
+                            <Description>最大线段跨越距离</Description>
+                            <DisplayName>最大线段跨越距离</DisplayName>
+                            <AccessMode>RW</AccessMode>
+                            <MinValue>0.00</MinValue>
+                            <MaxValue>1.00</MaxValue>
+                            <CurValue>0.30</CurValue>
+                            <IncValue>0.1</IncValue>
+                        </Float>
+                        <Integer Name="cannyLow" NameSpace="Standard">
+                            <Description>canny下限阈值</Description>
+                            <DisplayName>canny下限阈值</DisplayName>
+                            <AccessMode>RW</AccessMode>
+                            <MinValue>0</MinValue>
+                            <MaxValue>1000</MaxValue>
+                            <CurValue>100</CurValue>
+                            <IncValue>1</IncValue>
+                        </Integer>
+                        <Integer Name="cannyHigh" NameSpace="Standard">
+                            <Description>canny上限阈值</Description>
+                            <DisplayName>canny上限阈值</DisplayName>
+                            <AccessMode>RW</AccessMode>
+                            <MinValue>0</MinValue>
+                            <MaxValue>1000</MaxValue>
+                            <CurValue>300</CurValue>
+                            <IncValue>1</IncValue>
+                        </Integer>
+                        <Integer Name="roiWidth" NameSpace="Standard">
+                            <Description>输出ROI宽度</Description>
+                            <DisplayName>输出ROI宽度</DisplayName>
+                            <AccessMode>RW</AccessMode>
+                            <MinValue>0</MinValue>
+                            <MaxValue>9999</MaxValue>
+                            <CurValue>70</CurValue>
+                            <IncValue>1</IncValue>
+                        </Integer>
+                        <Integer Name="roiHeight" NameSpace="Standard">
+                            <Description>输出ROI高度</Description>
+                            <DisplayName>输出ROI高度</DisplayName>
+                            <AccessMode>RW</AccessMode>
+                            <MinValue>0</MinValue>
+                            <MaxValue>9999</MaxValue>
+                            <CurValue>300</CurValue>
+                            <IncValue>1</IncValue>
+                        </Integer>
+                    </Items>
+                </Category>
+            </Categorys>
+        </Tab>
+        <Tab Name="ResultShow">
+            <Categorys>
+                <Category Name="Tab_Image Display">
+                    <Items>
+                        <ImageViewConfig Name="FixtureInitPoint">
+                            <Description>Fixtured Point</Description>
+                            <DisplayName>RunParam_Fixtured Point</DisplayName>
+                            <Visibility>Beginner</Visibility>
+                            <AccessMode>O</AccessMode>
+                            <CustomVisible>False</CustomVisible>
+                            <BrigdgeSetter>
+                                <TargetName>BridgeObj</TargetName>
+                                <OperationName>GetDisplayObjectOperation</OperationName>
+                                <OperationParams>Fixtured Point</OperationParams>
+                            </BrigdgeSetter>
+                            <Triggers>
+                                <Trigger>
+                                    <Property>CustomVisible</Property>
+                                    <Setters>
+                                        <Setter>
+                                            <OperationName>SetDisplayObjectPropertyOperation</OperationName>
+                                            <OperationParams>Fixtured Point;IsDisplay</OperationParams>
+                                        </Setter>
+                                    </Setters>
+                                </Trigger>
+                            </Triggers>
+                        </ImageViewConfig>
+                        <ImageViewConfig Name="FixtureRunPoint">
+                            <Description>Unfixtured Point</Description>
+                            <DisplayName>RunParam_Unfixtured Point</DisplayName>
+                            <Visibility>Beginner</Visibility>
+                            <AccessMode>O</AccessMode>
+                            <CustomVisible>False</CustomVisible>
+                            <BrigdgeSetter>
+                                <TargetName>BridgeObj</TargetName>
+                                <OperationName>GetDisplayObjectOperation</OperationName>
+                                <OperationParams>Unfixtured Point</OperationParams>
+                            </BrigdgeSetter>
+                            <Triggers>
+                                <Trigger>
+                                    <Property>CustomVisible</Property>
+                                    <Setters>
+                                        <Setter>
+                                            <OperationName>SetDisplayObjectPropertyOperation</OperationName>
+                                            <OperationParams>Unfixtured Point;IsDisplay</OperationParams>
+                                        </Setter>
+                                    </Setters>
+                                </Trigger>
+                            </Triggers>
+                        </ImageViewConfig>
+                        <ImageViewConfig Name="CheckZone">
+                            <Description>ROI</Description>
+                            <DisplayName>ROI</DisplayName>
+                            <Visibility>Beginner</Visibility>
+                            <AccessMode>O</AccessMode>
+                            <BrigdgeSetter>
+                                <TargetName>BridgeObj</TargetName>
+                                <OperationName>GetDisplayObjectOperation</OperationName>
+                                <OperationParams>ROI</OperationParams>
+                            </BrigdgeSetter>
+                        </ImageViewConfig>
+                    </Items>
+                </Category>
+            </Categorys>
+        </Tab>
+    </Tabs>
+    <BottomExcuteButtonsLeft>
+        <Button_ResetAlgoParams Name="Button_ResetAlgoParams">
+            <Visibility>Beginner</Visibility>
+            <AccessMode>O</AccessMode>
+        </Button_ResetAlgoParams>
+    </BottomExcuteButtonsLeft>
+    <BottomExcuteButtons>
+        <GroupLinkItem Name="BottomCommandGroup">
+            <LinkName>BottomCommandGroup</LinkName>
+        </GroupLinkItem>
+    </BottomExcuteButtons>
+</AlgorithmTabRoot>

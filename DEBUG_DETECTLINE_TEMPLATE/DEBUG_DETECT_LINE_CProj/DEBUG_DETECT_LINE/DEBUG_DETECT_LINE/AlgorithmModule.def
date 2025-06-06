@@ -1,0 +1,5 @@
+LIBRARY "DEBUG_DETECT_LINE"
+
+EXPORTS
+CreateModule
+DestroyModule
